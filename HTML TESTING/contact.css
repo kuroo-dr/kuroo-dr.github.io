@@ -1,0 +1,115 @@
+
+body {
+    background-image: url(contactbg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.shape {
+    width: 400px;
+    height: 38px;
+    background: linear-gradient(to bottom, #053F80, #89B4E5);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+
+
+/*angel*/
+
+.angel {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.circle1 {
+    width: 140px;
+    height: 140px;
+    background-image: url(angel.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name-angel{
+    color: #000000;
+    width: 300px;
+}
+
+/*mary*/
+
+.mary {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.circle2 {
+    width: 140px;
+    height: 140px;
+    background-image: url(mary.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name-mary{
+    color: #000000;
+
+}
+
+/*george*/
+
+.george {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.circle3 {
+     width: 140px;
+    height: 140px;
+    background-image: url(george.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name-george{
+    color: #000000;
+
+}
+
+/*andrew*/
+
+.andrew {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.circle4 {
+     width: 140px;
+    height: 140px;
+    background-color: rgb(114, 180, 255);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.name-andrew{
+    color: #000000;
+    width: 200px;
+}

@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "canva sans", sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+ 
+   
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 40px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.logo {
+    background-color: #1a2a4a;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 12px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    font-weight: 300;
+}
+
+.auth-btns button {
+    margin-left: 8px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.login ,
+.signup { background: #4406b8c2; }
+
+/* HOME */
+.home {
+    background-image: url('bg1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+.home .hero {
+    font-size:15px;
+    font-style:normal;
+    text-align:left;
+    padding-top: 200px;
+    margin-bottom: 30px;
+}
+
+.home .hero2 h1 {
+    margin-bottom: 30px;
+    font-size: 70px;
+    text-align:left;
+    padding: 20px 40px;
+    
+}
+
+.home .start-btn {
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding: 10px 50px;
+    font-size: 15px;
+    background: #121368;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.home .how-it-works {
+    padding: 20px 50px;
+    margin-bottom: 40px;
+    background-color: white;
+    background-size: 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about{
+    background-image: url('bg2.jpg') ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.about1 {
+    max-width:800px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.about1 h1 {
+    padding-top: 75px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about1 p {
+    padding-top: 45px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about .column_text1 p{
+    margin-top: 105px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background: linear-gradient(to bottom, #44fff6fd, #23f8b8) ;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+   
+  
+}
+
+.about .column_text2 p {
+    margin-top: 105px;
+    margin-right: 100px;
+    background: linear-gradient(to bottom, #44fff6fd, #23f8b8) ;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    height: 270px;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;  
+    
+}
+
+.about .column_text3 p {
+    margin-top: 125px;
+    margin-right: 300px;
+    background: linear-gradient(to bottom, #44fff6fd, #23f8b8) ;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    height: 270px;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+/* EXPLORE */
+.explore{
+    background-image: url('bg003.png') ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 100px;
+    
+}
+
+.explore .explore1 h1 p {
+    line-height: 1.6px;
+}
+
+.explore .explore1 h1{
+    font-size:30px;
+    font-style:normal;
+    text-align:left;
+    padding-top:28px;
+    padding-left: 80px;
+   
+}
+
+.explore .explore1 p{
+    font-size:20px;
+    font-style:normal;
+    text-align:left;
+    padding-left: 80px;
+   
+}
+
+.explore .explore_text1 {
+    padding-left: 165px;
+    margin-top: 80px;
+    text-align: justify;
+    width: 400px;
+    font-size: 25px;
+}
+.explore .explore_text1 h3{
+    text-align: justify;
+    width: 400px;
+    
+}
+.explore .explore_text1 p{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+}
+
+.explore .explore_text2{
+    margin-left: 400px;
+    margin-top: 80px;
+    text-align: justify;
+    width: 400px;
+    font-size: 25px;
+}
+.explore .explore_text2 h3{
+    text-align: justify;
+    width: 400px;
+    
+}
+.explore .explore_text2 p{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+}
+
+.explore .explore_text3{
+    padding-left: 270px;
+    margin-top: 160px;
+    text-align: justify;
+    width: 400px;
+    font-size: 25px;
+}
+.explore .explore_text3 h3{
+    text-align: justify;
+    width: 400px;
+    
+}
+.explore .explore_text3 p{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+}
+
+.explore .explore_text4{
+    padding-left: 350px;
+    margin-top: 100px;
+    text-align: justify;
+    width: 400px;
+    font-size: 25px;
+}
+.explore .explore_text4 h3{
+    text-align: justify;
+    width: 400px;
+    
+}
+.explore .explore_text4 p{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+}
+
+
+
+
+
+
+/* HOW COMLIT WORKS */
+.hcw{
+    background-image: url('bg4.jpg') ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 100px;
+    
+}
+
+.hcw .hcw0{
+    padding-top: 160px;
+    text-align: center;
+    font-size:17px;
+    font-family: 'Times New Roman';
+}
+    
+.hcw .hcw1{
+    padding-left: 50px;
+    margin-top: 130px;
+}
+.hcw .hcw2{
+    padding-left: 45px;
+    padding-right: 25px;
+    margin-top: 130px;
+    text-align: justify;
+    width: 285px;
+
+}
+.hcw .hcw3{
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 130px;
+    text-align: justify;
+    width: 285px;
+}
+.hcw .hcw4{
+    padding-left: 13px;
+    padding-right: 55px;
+    margin-top: 130px;
+    text-align: justify;
+    width: 285px;
+}
+.hcw .hcw5{
+    padding-left: 0px;
+    padding-right: 35px;
+    margin-top: 130px;
+    text-align: justify;
+    width: 285px;
+}
+
+
+
+
+/* END */
+.end{
+    background-image: url('bg5.jpg') ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height:100vh ;
+    height: auto;
+    padding-bottom: 100px;
+    
+}
+
+ .end1 h1{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 250px;
+    font-size:30px;
+
+    
+}
+
+.end1 p{
+    padding-top: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    font-size: 20px;
+    background-color:white;
+    background-size: cover;
+    color:rgb(7, 7, 7);
+    border-radius: 25px;
+    padding: 10px;
+}
